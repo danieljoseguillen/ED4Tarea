@@ -1,7 +1,15 @@
 package deposito;
 
+/**
+ * Clase Main de la tarea.
+ * @author Daniel
+ */
 public class Main {
 
+    /**
+     *  Main del Main....
+     * @param args Parametro args del main.
+     */
     public static void main(String[] args) {
         CCuenta cuenta1;
         double saldoActual;
@@ -12,7 +20,11 @@ public class Main {
 
         operativa_cuenta(cuenta1, 2300);
     }
-
+    /**
+     * Metodo creado como parte de la segunda parte de la tarea.
+     * @param cuenta1
+     * @param cantidad 
+     */
     private static void operativa_cuenta(CCuenta cuenta1, float cantidad) {
         try {
             cuenta1.retirar(cantidad);
